@@ -10,7 +10,7 @@
   background-color: #FFC000;
   border: 2px solid #FFC000;
   padding: 20px 45px;
-  border-radius: 35px;
+  border-radius: 45px;
   text-decoration: none;
   color: #fff;
   font-size: 25px;
@@ -20,7 +20,7 @@
   background-color: #fff;
   border: 2px solid #FFC000;
   padding: 20px 45px;
-  border-radius: 35px;
+  border-radius: 45px;
   text-decoration: none;
   color: #FFC000;
   font-size: 25px;
@@ -54,6 +54,7 @@
 .tetiary-color {
   color: #FFC000;
 }
+
 .fnt-w8-500 {
   font-weight: 500;
 }
@@ -63,15 +64,22 @@
 .fnt-w8-800 {
   font-weight: 800;
 }
+.fnt-sze-40 {
+  font-size: 40px;
+}
 .fnt-sze-50 {
   font-size: 50px;
-}
-.fnt-sze-70 {
-  font-size: 70px;
 }
 .fnt-sze-60 {
   font-size: 90px;
 }
+.fnt-sze-62 {
+  font-size: 62px;
+}
+.fnt-sze-70 {
+  font-size: 70px;
+}
+
 .fnt-sze-23 {
   font-size: 23px;
 }
@@ -80,6 +88,9 @@
 }
 .fnt-sze-18 {
   font-size: 18px;
+}
+.fnt-sze-19 {
+  font-size: 19px;
 }
 .fnt-sze-20 {
   font-size: 20px;
@@ -99,6 +110,9 @@
 .ml-cstm {
   margin-left: 10%;
 }
+.ml-cstm_2 {
+  margin-left: 2%;
+}
 .cstm_padding {
   padding: 70px 40px 40px 50px;
 }
@@ -107,4 +121,13 @@
 }
 .ctsm-width-12 {
   width: 12%;
+}
+
+.pd_btm-10 {
+  padding-bottom: 15px;
+}
+
+
+.cstm_nav_link {
+  text-decoration: underline;
 }

@@ -206,9 +206,9 @@
   .xs-bg-img {
     display: block;
     position: absolute;
-    opacity: 0.2;
+    opacity: 0.1;
     left: 0;
-    top: 12%;
+    top: 15%;
   }
   .header_4 {
     text-align: left;

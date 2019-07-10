@@ -1,9 +1,20 @@
+html {
+  scroll-behavior: smooth;
+}
+.calc_fields {
+  text-decoration: underline;
+}
+
 .mt-cstm {
   padding-top: 1.42857143em; 
 }
 
 .mrgin-btm-0 {
   margin-bottom: 0;
+}
+
+.xs_hidden_cstm {
+  display: none;
 }
 
 .btn-prmry-1 {
@@ -135,7 +146,7 @@
   background-image: url(../img/assets/short-logo-bg.png);
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: center;
+  background-position: left;
 }
 
 .cstm_mg-tp {
@@ -179,6 +190,9 @@
   .header {
     text-align: left;
     font-size: 50px;
+  }
+  .xs_hidden_cstm {
+    display: block;
   }
   .header_2 {
     text-align: left;

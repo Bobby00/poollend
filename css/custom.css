@@ -2,11 +2,59 @@ html {
   scroll-behavior: smooth;
 }
 .calc_fields {
-  text-decoration: underline;
+  text-decoration: underline;               
+}
+
+select {
+  font-size: 22px;
+  font-weight: 700;
+  color: #FFC000;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  background-color: transparent;
+  /* no standardized syntax available, no ie-friendly solution available */
+  border-top: 1px solid transparent;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+  border-bottom: 3px solid #FFC000;
+  border-radius: 0px;
+  padding-left: 0px;
+}
+
+select + i.fas {
+  float: right;
+  margin-top: -40px;
+  margin-right: 5px;
+  font-size: 20px;
+  /* this is so when you click on the chevron, your click actually goes on the dropdown menu */
+  pointer-events: none;
+  /* everything after this is just to cover up the original arrow */
+  /* (for browsers that don't support the syntax used above) */
+  background-color: #fff;
+  padding-right: 5px;
+  z-index: 100000;
+}
+
+
+.bar .logo {
+  max-height: 7.857143em;
+  top: -35px;
+}
+
+footer .logo {
+  max-height: 7.857143em;
+}
+
+.mb_cstm_0 {
+  margin-bottom: 0px!important;
+}
+.mb_cstm_10 {
+  margin-bottom: 10px!important;
 }
 
 .mt-cstm {
-  padding-top: 1.42857143em; 
+  padding-top: 0em; 
 }
 
 .mrgin-btm-0 {
@@ -71,8 +119,14 @@ html {
 .fnt-w8-600 {
   font-weight: 600;
 }
+.fnt-w8-700 {
+  font-weight: 700;
+}
 .fnt-w8-800 {
   font-weight: 800;
+}
+.fnt-sze-30 {
+  font-size: 30px;
 }
 .fnt-sze-40 {
   font-size: 40px;
@@ -109,7 +163,7 @@ html {
   max-width: 80%;
 }
 .bg-clr_1 {
-  background-color: #F4E5F4;
+  background-color: #F8F9FD;
 }
 .bg-clr_2 {
   background-color: #1B056D;
@@ -143,11 +197,18 @@ html {
 }
 
 .bg_img {
-  background-image: url(../img/assets/short-logo-bg.png);
+  background-image: url(../img/assets/short-logo-transparent.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: left;
 }
+
+/*.bg_img_2 {
+  background-image: url(../img/assets/hero-light.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}*/
 
 .cstm_mg-tp {
   margin-top: 1.57142857em!important;

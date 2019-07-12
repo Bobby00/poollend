@@ -37,12 +37,12 @@
                 <nav id="menu1" class="bar bar-1 hidden-xs">
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-1 col-sm-2 hidden-xs">
+                            <div class="col-xs-7 col-md-1 hidden-xs">
                                 <div class="bar__module">
                                     <a href="index.html"> <img class="logo logo-dark" alt="logo" src="img/assets/poollend-logo.png"> <img class="logo logo-light" alt="logo" src="img/assets/poollend-logo.png"> </a>
                                 </div>
                             </div>
-                            <div class="col-md-11 col-sm-12 text-right text-left-xs text-left-sm">
+                            <div class="col-xs-5 col-md-11 text-right text-left-xs text-left-sm">
                                 <div class="bar__module">
                                     <a class="type--uppercase btn-prmry-2" href="#purchase-template"> <span class="btn__text">
                                     APPLY NOW
@@ -55,36 +55,73 @@
             </div>
         </div>
         <div class="main-container">
-            <section class="cover mt-cstm switchable text-center-xs">
+            <section class="cover mt-cstm switchable text-center-xs bg_img_2">
                 <div class="container">
                     <img alt="Image" class="xs-bg-img" src="img/assets/hero.png">
                     <div class="row">
-                        <div class="col-sm-6 col-md-6">
+                        <div class="col-sm-12 col-md-12">
                             
-                                <h1 class="sec-color fnt-w8-800 fnt-sze-62 header"> Find your business loan </h1>
-                                <p class="lead prmry-color fnt-w8-600 fnt-sze-23 header_2"> Unsecured business loans from ZAR 5000 to ZAR 500,000. </p>
+                                <h1 class="sec-color fnt-w8-800 fnt-sze-62 header mb_cstm_10"> Find your business loan </h1>
+                                <p class="lead prmry-color fnt-w8-700 fnt-sze-30 header_2 mb_cstm_10"> Unsecured business loans from ZAR 5000 to ZAR 500,000. </p>
                             
-                            <p class="text-left sec-color fnt-w8-600 fnt-sze-16"> No hidden charges, no early repayment fees </p>
-                            <left>
-                                <br>
-                            <a class="btn-prmry-1 type--uppercase" href="#customise-template"> 
-                                <span class="btn__text">GET STARTED</span> 
-                            </a>
-                            <br>
-                            <br>
-                            <br>
-                            <a class="fnt-sze-18 tetiary-color ml-cstm_2 cstm_nav_link" href="#calculator"> 
-                                <span class="btn__text">Calculate your weekly repayments</span> 
-                            </a>
-                            </left> 
+                            <p class="text-left prmry-color fnt-w8-700 fnt-sze-30"> No hidden charges, no early repayment fees </p>
                         </div>
-                        <div class="col-sm-6 header_img_rspv"> <img alt="Image" src="img/assets/hero.png"> </div>
+                        <div class="col-sm-12">
+                            <div class="row">
+                                <div class="col-sm-2">
+                                    <p class="sec-color fnt-w8-600 fnt-sze-20">I want to borrow</p>
+
+                                    <select name="loan_amount">
+                                        <option value="5000">ZAR 5,000</option>
+                                        <option value="10000">ZAR 10,000</option>
+                                        <option value="15000">ZAR 15,000</option>
+                                        <option value="20000">ZAR 20,000</option>
+                                        <option value="25000">ZAR 25,000</option>
+                                        <option value="30000">ZAR 30,000</option>
+                                        <option value="40000">ZAR 40,000</option>
+                                        <option value="50000">ZAR 50,000</option>
+                                        <option value="60000">ZAR 60,000</option>
+                                        <option value="70000">ZAR 70,000</option>
+                                        <option value="80000">ZAR 80,000</option>
+                                        <option value="90000">ZAR 90,000</option>
+                                        <option value="100000">ZAR 100,000</option>
+                                    </select>
+                                    <i class="fas fa-chevron-circle-down tetiary-color"></i>
+                                </div>
+
+                                <div style="border-right: 3px solid blue;" class="col-sm-2">
+                                    <p class="sec-color fnt-w8-600 fnt-sze-20">For a period of</p>
+                                    <select name="months">
+                                        <option value="3">3 months</option>
+                                        <option value="6">6 months</option>
+                                        <option value="9">9 months</option>
+                                        <option value="12">12 months</option>
+                                        <option value="15">15 months</option>
+                                        <option value="18">18 months</option>
+                                        <option value="21">21 months</option>
+                                        <option value="24">24 months</option>
+                                    </select>
+                                    <i class="fas fa-chevron-circle-down tetiary-color"></i>
+                                </div>
+                                <div class="col-sm-7">
+                                    <p class="sec-color fnt-w8-600 fnt-sze-20 mb_cstm_10">Your weekly repayments will be:</p>
+                                    <h2 class="prmry-color fnt-w8-400 fnt-sze-50">ZAR <span class="prmry-color fnt-w8-800">536</span></h2>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="col-sm-6 header_img_rspv"> <img alt="Image" src="img/assets/hero.png"> </div> -->
                     </div>
+                    <br><br>
+                    <left>
+                        <a class="btn-prmry-1" href="#customise-template"> 
+                            <span class="btn__text">Get Started</span> 
+                        </a>
+                    </left> 
                 </div>
             </section>
 
 
-            <section id="calculator" class="cover text-center mt--2">
+           <!--  <section id="calculator" class="cover text-center mt--2">
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
@@ -97,13 +134,14 @@
                          </div>
                     </div>
                 </div>
-            </section>
+            </section> -->
 
-            <section class="cover unpad--bottom switchable text-center-xs bg-clr_1 bg_img">
+            <section class="cover unpad--bottom switchable text-center-xs bg-clr_1">
                 <div class="container mt--3 mb--3 xs_cstm_mgn">
                     <div class="row">
-                        <div class="col-sm-5"> <h1 class="fnt-w8-800 prmry-color fnt-sze-40 header_4">Small businesses are the backbone of the economy</h1> </div>
+                        <div class="col-sm-5"> <img src="img/assets/short-logo.png"> </div>
                         <div class="col-sm-6 col-md-5">
+                            <h1 class="fnt-w8-800 prmry-color fnt-sze-40 header_4">Small businesses are the backbone of the economy</h1>
                             <h4 class="sec-color fnt-w8-500 xs_left"> We pride ourselves on offering straight-forward loans to give your venture a financial boost. No guesswork, no reading between the lines, no hidden fees. Just totally transparent loans to help you get ahead. </h4>
                         </div>
                     </div>             
@@ -286,13 +324,13 @@
                         </div>
                         <div class="col-sm-12 mt--3 bg-clr_2 brdr-radius cstm_padding xs_mgn_cta">
                             <div class="row">
-                                <div class="col-xs-12 col-sm-12 col-md-4">
+                                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                                     <h2 class="clr-whte fnt-w8-600 xs_center xs_fnt_30">Sounds good?</h2>
                                 </div>
-                                <div class="col-xs-12 col-sm-12 col-md-4 xs_mg_1">
+                                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 xs_mg_1">
                                     <p class="text-center clr-whte">Apply online today and receive a lending decision within just 24 hours.</p>
                                 </div>
-                                <div class="col-xs-12 col-sm-12 col-md-4">
+                                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                                     <center>
                                         <a class="btn-prmry-1 type--uppercase" href="#customise-template"> 
                                             <span class="btn__text">GET STARTED</span> 
@@ -327,6 +365,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-6"> <img alt="Image" class="logo" src="img/assets/poollend-logo.png">
+                            <p class="type--fine-print sec-color fnt-w8-600"><span class="prmry-color fnt-sze-20 fnt-w8-600">©</span> 2019, All rights reserved </p>
                         </div>
                         <div class="col-sm-6 text-right text-center-xs">
                             <a href="#"><img class="ctsm-width-12" src="img/assets/facebook.png"></a>
@@ -341,12 +380,12 @@
                             </ul> -->
                         </div>
                     </div>
-                    <div class="row">
+                    <!-- <div class="row">
                         <div class="col-sm-6">
                             <p class="type--fine-print sec-color fnt-w8-600"><span class="prmry-color fnt-sze-20 fnt-w8-600">©</span> 2019, All rights reserved </p>
                         </div>
                         
-                    </div>
+                    </div> -->
                 </div>
             </footer>
         </div>

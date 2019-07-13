@@ -4,14 +4,29 @@ html {
 .calc_fields {
   text-decoration: underline;               
 }
+.sm_override {
+  text-align: left;
+}
+.sm_override_hidden {
+  display: none;
+}
+
+select:focus {
+  border-top: 1px solid transparent;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+  border-bottom: 3px solid #FFC000;
+
+}
 
 select {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 700;
   color: #FFC000;
   -webkit-appearance: none;
   -moz-appearance: none;
   -o-appearance: none;
+  appearance: none;
   background-color: transparent;
   /* no standardized syntax available, no ie-friendly solution available */
   border-top: 1px solid transparent;
@@ -19,7 +34,7 @@ select {
   border-right: 1px solid transparent;
   border-bottom: 3px solid #FFC000;
   border-radius: 0px;
-  padding-left: 0px;
+  padding-left: 5px;
 }
 
 select + i.fas {
@@ -63,6 +78,11 @@ footer .logo {
 
 .xs_hidden_cstm {
   display: none;
+}
+
+.md_cstm_brder {
+  border-right: 5px solid #1B056D;
+  display: block;
 }
 
 .btn-prmry-1 {
@@ -213,6 +233,9 @@ footer .logo {
 .cstm_mg-tp {
   margin-top: 1.57142857em!important;
 }
+.cstm_mg-tp_0 {
+  margin-top: 0em!important;
+}
 
 .xs-bg-img {
   display: none;
@@ -250,10 +273,29 @@ footer .logo {
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   .header {
     text-align: left;
-    font-size: 50px;
+    font-size: 45px;
   }
+  .bar .logo {
+  max-height: 6.857143em;
+  top: -20px;
+}
   .xs_hidden_cstm {
     display: block;
+  }
+  .xs_fnt_20 {
+    font-size: 20px;
+  }
+  .md_cstm_brder{
+    border-right: none;
+  }
+  .cstm_mg-tp_0 {
+    margin-top: 1em!important;
+  }
+  .xs_styling_calc {
+    text-align: left;
+    font-size: 16px;
+    letter-spacing: -1px;
+    margin-top: 20px;
   }
   .header_2 {
     text-align: left;
@@ -355,5 +397,8 @@ footer .logo {
   }
   .xs_mg_1 {
     margin-bottom: 18%;
+  }
+  .sm_override {
+    text-align: center;
   }
 }

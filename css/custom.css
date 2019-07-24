@@ -4,6 +4,12 @@ html {
 .calc_fields {
   text-decoration: underline;               
 }
+
+::placeholder {
+    font-weight: 600!important;
+    color: #707070!important;
+}
+
 .sm_override {
   text-align: left;
 }
@@ -20,7 +26,7 @@ select:focus {
 }
 
 .no-pad-cstm {
-  padding: 0;
+  padding: 0!important;
 }
 
 .cstm-width-selectors {
@@ -197,16 +203,26 @@ footer .logo {
   font-size: 30px;
 }
 
+.bg_img_sec3 {
+  background-image: url(../img/assets/motif.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 
+.img_xs_styln {
+  position: absolute; 
+  opacity: 0.1; 
+  left: 0;
+  }
 
 .bar__module {
   margin-top: 10px;
 }
 .prmry-color {
-  color: #970097;
+  color: #8549BA;
 }
 .sec-color {
-  color: #1B056D;
+  color: #00234B;
 }
 .tetiary-color {
   color: #FFC000;
@@ -278,7 +294,7 @@ footer .logo {
   background-color: #F8F9FD;
 }
 .bg-clr_2 {
-  background-color: #1B056D;
+  background-color: #8549BA;
 }
 .brdr-radius {
   border-radius: 20px;
@@ -355,26 +371,26 @@ footer .logo {
 
 .cstm_cta_btn {
   border-radius: 40px;
-  background-color: #970097;
+  background-color: #8549BA;
   color: #fff;
   font-size: 20px;
   font-weight: 700;
-  border: 2px solid #970097;
+  border: 2px solid #8549BA;
 }
 
 .cstm_cta_btn:hover {
   border-radius: 40px;
   background-color: #fff;
-  color: #970097;
+  color: #8549BA;
   font-size: 20px;
   font-weight: 700;
-  border: 2px solid #970097;
+  border: 2px solid #8549BA;
 }
 
 .input_cstm_styl {
   font-size: 23px;
   border-radius: 30px!important;
-  border: 2px solid #970097!important;
+  border: 1px solid #8549BA!important;
 }
 
 ::placeholder {
@@ -397,7 +413,7 @@ footer .logo {
   }
 
   .no-pad-cstm {
-    padding-left: 15px;
+    padding-left: 15px!important;
   }
 
   .cstm_mg-tp_10em, .cstm_mg-tp_14em, .cstm_mg-tp_24em {
@@ -542,7 +558,7 @@ footer .logo {
   .btn-prmry-1:hover {
     background-color: #fff;
     border: 2px solid #FFC000;
-    padding: 20px 30px;
+    padding: 20px 50px;
     border-radius: 45px;
     text-decoration: none;
     color: #FFC000;

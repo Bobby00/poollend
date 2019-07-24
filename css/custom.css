@@ -25,12 +25,22 @@ select:focus {
 
 }
 
+.bg_sec_2 {
+  background-image: url(../img/assets/motif2.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
 .no-pad-cstm {
   padding: 0!important;
 }
 
 .cstm-width-selectors {
   width: 50%;
+}
+
+.cstm_sec_1_styl {
+  margin-left: 10%;
 }
 
 select {
@@ -117,7 +127,7 @@ footer .logo {
 }
 
 .cstm-header_separator {
-  border-right: 3px solid #E2E2E2;
+  border-right: 2px solid #E2E2E2;
   height: 400px;
 }
 
@@ -346,7 +356,7 @@ footer .logo {
 }*/
 
 .cstm_mg-tp {
-  margin-top: 1.57142857em!important;
+  margin-top: 1.97142857em!important;
 }
 
 .cstm_mg-tp_10em {
@@ -404,6 +414,10 @@ footer .logo {
     font-size: 45px;
   }
 
+  .bg_sec_2 {
+    background-image: none;
+  }
+
   select {
     font-size: 20px;
   }
@@ -433,6 +447,7 @@ footer .logo {
   .md_cstm_brder{
     border-right: none;
   }
+
   .cstm_mg-tp_0 {
     margin-top: 1em!important;
   }
@@ -558,11 +573,11 @@ footer .logo {
   .btn-prmry-1:hover {
     background-color: #fff;
     border: 2px solid #FFC000;
-    padding: 20px 50px;
-    border-radius: 45px;
-    text-decoration: none;
-    color: #FFC000;
-    font-size: 25px;
+    padding: 20px 50px!important;
+    border-radius: 45px!important;
+    text-decoration: none!important;
+    color: #FFC000!important;
+    font-size: 25px!important;
   }
   .xs_mg_1 {
     margin-bottom: 18%;
@@ -581,7 +596,7 @@ footer .logo {
     .btn-prmry-1 {
     background-color: #FFC000;
     border: 2px solid #FFC000;
-    padding: 20px 30px;
+    padding: 20px 50px;
     border-radius: 45px;
     text-decoration: none;
     color: #fff;
@@ -591,10 +606,10 @@ footer .logo {
     .btn-prmry-1:hover {
       background-color: #fff;
       border: 2px solid #FFC000;
-      padding: 20px 30px;
+      padding: 20px 50px;
       border-radius: 45px;
       text-decoration: none;
       color: #FFC000;
-      font-size: 30px;
+      font-size: 25px;
     }
 }

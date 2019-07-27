@@ -1,0 +1,26 @@
+Hello this is calculator
+
+
+
+<script type="text/javascript">
+	
+	var annual_interest = 23;
+	var amount_chosen 	= 5000;
+	var timelimit 		= 15;
+	
+
+	if (timelimit >= 3 && amount_chosen >= 5000) {
+		user_total_interest = (timelimit * 23)/12;
+		total_amount_accrued = ((user_total_interest + 100) * amount_chosen)/100;
+
+		timelimit_in_wks = timelimit * 4;
+
+		wkly_payments = Math.round(total_amount_accrued/timelimit_in_wks);
+
+		console.log(wkly_payments);
+
+	} else {
+		console.log("Please check your values");
+	}
+
+</script>
